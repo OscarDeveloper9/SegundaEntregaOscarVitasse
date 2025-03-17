@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Compra y Venta de Productos Usados</title>
+</head>
+<body>
+
+    <h1>Bienvenido a la aplicación de compra y venta de productos usados</h1>
+
+    <div id="menu">
+        <button onclick="mostrarProductos()">Ver productos disponibles</button>
+        <button onclick="comprarProducto()">Comprar un producto</button>
+        <button onclick="venderProducto()">Vender un producto</button>
+        <button onclick="verSaldoYProductos()">Ver saldo y productos comprados</button>
+        <button onclick="salir()">Salir</button>
+        <button onclick="crearProducto()">Crear un nuevo producto</button> <!-- Nuevo botón -->
+    </div>
+
+    <div id="productosDisponibles"></div>
+    <div id="productosComprados"></div>
+    <div id="saldo"></div>
+
+    <script src="app2.js"></script>
+</body>
+</html>
